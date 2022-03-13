@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000;
+}
+
+.header-bar {
+    background-color: #e5e5e5;
+    padding: 16px 0;
+}
+
+.header-bar nav {
+    width: 460px; 
+}
+
+.header-bar nav, .header-nav nav {
+    margin: 0 auto;
+}
+
+.header-bar ul {
+    font-size: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+.header-bar li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.header-bar a {
+    font-size: 14px;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-logo {
+    padding: 20px 0;
+}
+
+.wrapper {
+    max-width: 1110px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    font-size: 0;
+}
+
+.logo span {
+    display: inline-block;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #f13c6e;
+    vertical-align: top;
+    margin: 20px 0 20px 20px;
+}
+
+.header-contacts {
+    float: right;
+    padding: 20px 0;
+}
+
+.header-contacts a {
+    color: #000;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.btn {
+    border-radius: 40px;
+    padding: 12px 26px;
+    cursor: pointer;
+}
+
+.btn-call {
+    border: 2px solid #f13c6e;
+    background-color: #fff;
+    margin-left: 40px;
+}
+
+hr {
+    height: 1px;
+    background-color: #efefef;
+    border: none;
+}
+
+.header-nav nav{
+    width: 692px;
+    font-size: 16px;
+    padding: 30px 0;
+}
+
+.header-nav li:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header-nav a {
+    color: #000;
+}
