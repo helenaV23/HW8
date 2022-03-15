@@ -137,7 +137,7 @@ h1 {
 }
 
 .btn-main-screen {
-    background-color: transparent;
+    display: inline-block;
     border: 2px solid #fff;
     color: #fff
 }
@@ -179,6 +179,7 @@ h2 {
 }
 
 .btn-buy {
+    display: inline-block;
     background-color: #f13c6e;
     border: none;
     color: #fff;
@@ -239,10 +240,11 @@ h3 {
 }
 
 .btn-map {
-    background: transparent;
+    display: inline-block;
     border: 2px solid #fff;
     padding: 7px 28px;
     color: #fff;
+    line-height: 16px;
 }
 
 h4 {
@@ -298,5 +300,9 @@ h4 {
     background-color: #efefef;
     padding: 25px 0;
     font-size: 12px;
+    color: #828282;
+}
+
+.privacy-policy a {
     color: #828282;
 }
