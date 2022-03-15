@@ -260,8 +260,12 @@ h4 {
  
 .popular-categories {
     padding: 60px 0;
-
 }
+
+.popular-categories .pull-left:not(:last-child) {
+    margin-right: 30px;
+}
+
 .popular-categories li {
     display: block;
     font-size: 12px;
